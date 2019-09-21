@@ -30,7 +30,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
 	      "./node_modules/@getbase/micro-grid/index.css",
-	      "src/assets/normalize.scss"
+	      "src/assets/normalize.scss",
               "src/styles.scss"
             ],
             "scripts": []
