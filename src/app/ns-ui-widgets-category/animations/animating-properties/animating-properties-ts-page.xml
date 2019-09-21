@@ -1,0 +1,10 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded">
+	<Page.actionBar>
+		<ActionBar title="Animating Multiple Properties" />
+	</Page.actionBar>
+	<GridLayout rows="auto, auto, *">
+		<Label row="0" text="Tap the button for inital animation and long press the label for the secondary animation" textWrap="true" />
+        <Button row="1" text="Animate" tap="animate" class="btn btn-primary btn-active" width="80%"/>
+		<Label row="2" id="lbl" text="NativeScript" textWrap="true" longPress="animateTarget" marginTop="50"/>
+	</GridLayout>
+</Page>

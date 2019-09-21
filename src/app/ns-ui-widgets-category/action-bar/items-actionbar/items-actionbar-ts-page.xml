@@ -1,0 +1,15 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+		<ActionBar title="Action Items">
+            <ActionItem tap="onShare"
+                ios.systemIcon="9" ios.position="left"
+                android.systemIcon="ic_menu_share" android.position="actionBar"></ActionItem>
+            <ActionItem tap="onDelete" text="delete" 
+                ios.systemIcon="16" ios.position="right"
+                android.position="popup"></ActionItem>
+        </ActionBar>
+	</Page.actionBar>
+    <StackLayout verticalAlignment="middle"> 
+        <Label text="{{ '&#xff05a; ' + title }}" textWrap="true" class="fa"/>
+    </StackLayout>
+</Page>

@@ -1,0 +1,15 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <Page.actionBar>
+		<ActionBar title="Icon Fonts (via code)"/>
+	</Page.actionBar>
+    <GridLayout>
+        <ListView items="{{ glyphs }}">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal" horizontalAlignment="center">
+                    <Label text="{{ icon }}" class="ico"/>
+                    <Label text="{{ code }}" />
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>
