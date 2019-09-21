@@ -28,19 +28,20 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-	      "./node_modules/@getbase/micro-grid/scss/index.scss",
-	      "src/assets/normalize.scss",
-	      "src/assets/material.css",
+              "./node_modules/@getbase/micro-grid/scss/index.scss",
+              "src/assets/normalize.scss",
+              "src/assets/material.css",
               "src/styles.scss"
             ],
             "scripts": [
-		"./node_modules/chart.js/dist/Chart.js",
-		"./node_modules/hammerjs/hammer.min.js",
-		"./node_modules/material-design-lite/material.min.js",
-		"src/assets/nativescript-webview-interface.js"
-	    ]
+              "./node_modules/chart.js/dist/Chart.js",
+              "./node_modules/hammerjs/hammer.min.js",
+              "./node_modules/material/index.js",
+              "./node_modules/material-design-lite/material.min.js",
+              "src/assets/nativescript-webview-interface.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -103,7 +104,7 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
