@@ -1,1 +1,0 @@
-**See Also** [ActionBar](https://docs.nativescript.org/ui/ns-ui-widgets/action-bar)

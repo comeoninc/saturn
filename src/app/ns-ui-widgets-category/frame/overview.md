@@ -1,1 +1,0 @@
-The [`Frame`](http://docs.nativescript.org/api-reference/classes/_ui_frame_.frame.html) class represents the logical unit that is responsible for navigation between different pages. An application can have single or multiple `Frame` instances depending on the business logic and requirements. 
