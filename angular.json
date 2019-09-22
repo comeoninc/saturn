@@ -28,18 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
-              "./node_modules/@getbase/micro-grid/scss/index.scss",
+		"./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+		"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+		"./node_modules/@getbase/micro-grid/scss/index.scss",
 		"src/assets/css/swiper.css",
-              "src/assets/sass/materialize.scss",
-              "src/styles.scss"
+		"src/styles.scss"
             ],
             "scripts": [
               "./node_modules/chart.js/dist/Chart.js",
               "./node_modules/hammerjs/hammer.min.js",
 	      "src/assets/js/swiper.js",
-              "src/assets/js/bin/materialize.js",
               "src/assets/nativescript-webview-interface.js"
             ]
           },
