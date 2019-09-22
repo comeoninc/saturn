@@ -110,7 +110,8 @@ import {AppComponent} from './app.component';
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-  ]
+  ],
+  imports: [BrowserAnimationsModule]
 })
 export class MaterialModule {}
 
