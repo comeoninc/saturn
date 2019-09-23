@@ -1,10 +1,10 @@
 {
   "name": "saturn",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -27,17 +27,27 @@
     "@getbase/containers": "^4.1.1",
     "@getbase/micro-grid": "^4.1.0",
     "@nguniversal/express-engine": "^8.1.1",
+    "@types/chart.js": "^2.8.5",
+    "@types/md5": "^2.1.33",
+    "angular-bootstrap-md": "^8.3.0",
     "angular2-template-loader": "^0.6.2",
+    "angularfire2": "^5.2.1",
     "chart.js": "^2.8.0",
     "core-js": "^3.2.1",
+    "express": "^4.17.1",
     "hammerjs": "^2.0.8",
+    "material-design-lite": "^1.3.0",
+    "md5": "^2.2.1",
     "nativescript-angular": "^8.2.1",
     "nativescript-ng-shadow": "^2.1.0",
     "nativescript-theme-core": "^2.0.21",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.4.0",
+    "rxjs-compat": "^6.5.3",
     "tns-core-modules": "^6.1.1",
+    "ts-loader": "^6.1.2",
     "tslib": "^1.10.0",
+    "webpack-node-externals": "^1.7.2",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
@@ -79,7 +89,7 @@
     "webpack-bundle-analyzer": "^3.5.1",
     "webpack-sources": "^1.4.3"
   },
-  "description": "Material Universe",
+  "description": "Saturn The Material Universe",
   "main": "index.html",
   "repository": {
     "type": "git",
