@@ -1,0 +1,147 @@
+/**
+ * Eventastic Responsive CSS
+ */
+
+/**
+ * Max width css
+ */
+@media( max-width: 1024px ) {
+	#wpes-desktop-menu{ display: none; }
+	table th, table td{ padding: 5px 7px; }
+}
+@media( max-width: 991px ) {
+	.page-header { min-height: 0; }
+	.single-fw-event .event-add-to-calendar{ float: none; margin-bottom: 10px; }
+	.carousel .card .card-body { min-height: auto; }
+}
+@media( max-width: 767px ) {
+	header .main-nav .top-operation {
+		display: none;
+	}
+
+	.page-header.wpes-style-1 .wpes-banner,
+	.page-header.wpes-style-2 .wpes-banner,
+	.page-header.wpes-style-1 .wpes-event-timer {
+		height: auto;
+	}
+	.page-header.wpes-style-1 .wpes-event-timer ul.wpes-countdown {
+		position: relative;
+		top: 15px;
+	}
+
+	/** Title Bar */
+	.wpes-titlebar{ position: relative; margin-bottom: -50px; }
+	.wpes-titlebar .breadcrumb{ float: none; padding: 5px 0; }
+
+	.card .card-body .fa.placeholder{ left: auto; right: 10px; }
+
+	.woocommerce-account .woocommerce-MyAccount-navigation,
+	.woocommerce-account .woocommerce-MyAccount-content {
+		float: none;
+		width: 100%;
+		margin: 15px 0;
+		display: inline-block;
+	}
+	.woocommerce-MyAccount-navigation ul.nav li {
+		width: 49%;
+		float: left;
+	}
+
+	/* Timeline */
+	.wpes-timeline dl:before{left: 60px;}
+	.wpes-timeline dl dt{margin: 0 0 30px;}
+	.wpes-timeline dl dd .tl-item{float: right !important;width: 84%;}
+	.wpes-timeline dl dd .circ{left: 60px;}
+	.wpes-timeline dl dd .time{
+		padding: 10px 0;
+		margin-left: 0 !important;
+		text-align: left !important;
+		left: 0;
+		font-size: 12px;
+		line-height: 21px
+	}
+	.coupon.form-group {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.woocommerce table.shop_table td.actions input[name="update_cart"] {
+		float: none !important;
+	}
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+		float: none;
+		width: 100%;
+	}
+
+	/** call to action **/
+	.fw-call-to-action > div {
+		display: block;
+	}
+	.fw-call-to-action .fw-action-btn {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	/** 404 Page **/
+	body.error404 h2.title404 { text-align: center; }
+	body.error404 p.error-page-text{ margin: 10px 0 20px; }
+}
+@media( max-width: 480px ) {
+	.single-fw-event .event-date .col-xs-6{ width: 100%; }
+	.single-fw-event .event-add-to-calendar{ text-align: center; }
+	.single-fw-event .event-add-to-calendar .dropdown{ display: inline-block; }
+
+	/* Comment */
+	.commentlist ul.children{ padding: 0; }
+
+	/* Timeline */
+	.wpes-timeline .tl-item .card-image{ max-width: 150px; }
+	.wpes-timeline .tl-item > .col-xs-3,
+	.wpes-timeline .tl-item > .col-xs-9 {
+		float: none;
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 15px;
+	}
+	.col-xs480{
+		float: none;
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 15px;
+	}
+	.wpes-schedules .card-image{ max-width: 150px; }
+
+	.woocommerce table.cart td.actions .coupon .input-text,
+	.woocommerce table.cart td.actions .coupon .btn{ display: block; float: none !important; margin-bottom: 5px; width: auto !important; }
+
+	.event-advance-filter > .form-group {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+
+	/** Timers **/
+	.wpes-countdown li {
+		width: 60px;
+		height: 60px;
+		font-size: 22px;
+		line-height: 22px;
+		padding-top: 2px;
+	}
+	.wpes-countdown li div.timer-box {
+		height: 56px;
+		padding: 10px 0 0;
+		width: 56px;
+	}
+	.wpes-countdown label{ font-size: 9px; }
+}
+
+/**
+ * Min width css
+ */
+@media( min-width: 1025px ) {
+	#wpes-mobile-menu{ display: none !important; }
+	.wpes-mobile-menu-toggle{ display: none !important; }
+}
