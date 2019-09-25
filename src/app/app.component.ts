@@ -1,5 +1,5 @@
 import {
-  Component, ElementRef
+  Component
 } from '@angular/core';
 
 @Component({

@@ -55,6 +55,7 @@ import {
   MatTreeModule,
 } from '@angular/material';
 import {AppComponent} from './app.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 /**
  * NgModule that includes all Material modules that are required to serve the app.
@@ -119,6 +120,7 @@ export class MaterialModule {}
   imports: [
     BrowserModule,
     CommonModule,
+    FlexLayoutModule ,
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
